@@ -7,6 +7,7 @@ namespace InverseNum
         static void Main(string[] args)
         {
             Programa();
+            Console.ReadKey();
         }
         public static void Programa()
         {
@@ -30,10 +31,9 @@ namespace InverseNum
             else
             {
                 Console.WriteLine("Ingrese numeros solamente");
-                Console.ReadKey();
                 Programa();
             }
-            Console.ReadKey();
+            
         }
          public static void Invertir(string n)
         {
